@@ -372,6 +372,117 @@ def L():
 
     up()
 
+def M():
+    down()
+
+    turtle.begin_fill()
+    turtle.right(120)
+    turtle.forward(20)
+    turtle.right(60)
+    turtle.forward(20)
+    turtle.right(120)
+    turtle.forward(20)
+    turtle.end_fill()
+
+    turtle.right(180)
+    turtle.forward(40)
+    turtle.left(90)
+
+    up()
+
+    turtle.up()
+    turtle.left(60)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(60)
+    turtle.down()
+
+def N():
+    down()
+
+    turtle.begin_fill()
+    turtle.right(120)
+    turtle.forward(20)
+    turtle.right(60)
+    turtle.forward(20)
+    turtle.right(120)
+    turtle.forward(20)
+    turtle.end_fill()
+
+    turtle.right(180)
+    turtle.forward(40)
+    turtle.left(90)
+
+    down()
+
+    turtle.up()
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(60)
+    turtle.down()
+
+def O():
+    down()
+
+    turtle.right(60)
+    turtle.forward(20)
+    turtle.right(60)
+    turtle.forward(20)
+    turtle.begin_fill()
+    turtle.right(120)
+    turtle.forward(20)
+    turtle.right(60)
+    turtle.forward(20)
+    turtle.right(120)
+    turtle.forward(20)
+    turtle.end_fill()
+
+    turtle.right(180)
+    turtle.forward(40)
+    turtle.left(90)
+
+    up()
+
+    turtle.up()
+    turtle.left(60)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(70)
+    turtle.down()
+
+def P():
+    down()
+
+def Q():
+    down()
+
+def R():
+    down()
+
+def S():
+    down()
+
+def T():
+    down()
+
+def U():
+    down()
+
+def V():
+    down()
+
+def W():
+    down()
+
+def X():
+    down()
+
+def Y():
+    empty()
+
+def Z():
+    empty()
+
 
 turtle.up()
 turtle.left(90)
@@ -382,31 +493,33 @@ turtle.forward(500)
 turtle.right(180)
 #turtle.down()
 
-A()
-B()
-C()
-D()
-E()
-F()
-turtle.forward(500)
-turtle.right(180)
-turtle.forward(600)
-turtle.right(180)
-turtle.forward(100)
-G()
-H()
-I()
-J()
-K()
-L()
-turtle.up()
-turtle.forward(200)
-turtle.down()
-turtle.left(90)
-turtle.forward(100)
-turtle.right(180)
-turtle.forward(1100)
-turtle.right(180)
+def A_L():
+    A()
+    B()
+    C()
+    D()
+    E()
+    F()
+    turtle.forward(500)
+    turtle.right(180)
+    turtle.forward(600)
+    turtle.right(180)
+    turtle.forward(100)
+    G()
+    H()
+    I()
+    J()
+    K()
+    L()
+    turtle.up()
+    turtle.forward(200)
+    turtle.down()
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.right(180)
+    turtle.forward(1100)
+    turtle.right(180)
 
+O()
 
 turtle.done()
