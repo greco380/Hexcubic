@@ -89,6 +89,13 @@ def A():
 
     up()
 
+    turtle.up()
+    turtle.right(180)
+    turtle.forward(60)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.down()
+
 def B():
     up()
 
@@ -106,6 +113,13 @@ def B():
     turtle.right(90)
 
     down()
+
+    turtle.up()
+    turtle.left(120)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(60)
+    turtle.down()
 
 def C():
     up()
@@ -125,6 +139,13 @@ def C():
 
     down()
 
+    turtle.up()
+    turtle.left(180)
+    turtle.forward(30)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.down()
+
 def D():
     up()
 
@@ -142,6 +163,13 @@ def D():
     turtle.right(90)
 
     up()
+
+    turtle.up()
+    turtle.right(120)
+    turtle.forward(20)
+    turtle.left(90)
+    turtle.forward(30)
+    turtle.down()
 
 def E():
     up()
@@ -165,6 +193,11 @@ def E():
 
     up()
 
+    turtle.up()
+    turtle.right(90)
+    turtle.forward(40)
+    turtle.down()
+
 def F():
     up()
     turtle.right(120)
@@ -187,6 +220,13 @@ def F():
 
     down()
 
+    turtle.up()
+    turtle.right(60)
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(70)
+    turtle.down()
+
 def G():
     up()
     turtle.right(120)
@@ -206,6 +246,13 @@ def G():
     turtle.right(150)
 
     down()
+
+    turtle.up()
+    turtle.left(120)
+    turtle.forward(30)
+    turtle.right(90)
+    turtle.forward(60)
+    turtle.down()
 
 def H():
     up()
@@ -227,54 +274,139 @@ def H():
 
     up()
 
+    turtle.up()
+    turtle.left(180)
+    turtle.forward(40)
+    turtle.right(90)
+    turtle.forward(90)
+    turtle.down()
+
 def I():
     up()
 
+    turtle.begin_fill()
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.end_fill()
+
+    turtle.right(180)
+    turtle.forward(20)
+    turtle.right(90)
+
+    up()
+
+    turtle.up()
+    turtle.right(210)
+    turtle.forward(130)
+    turtle.down()
+
 def J():
+    up()
+
+    turtle.begin_fill()
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.end_fill()
+
+    turtle.right(180)
+    turtle.forward(20)
+    turtle.right(90)
+
     down()
+
+    turtle.up()
+    turtle.left(180)
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(100)
+    turtle.down()
 
 def K():
     up()
 
-def L():
+    turtle.begin_fill()
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.end_fill()
+
+    turtle.left(60)
+    turtle.forward(40)
+    turtle.left(90)
+
     down()
 
-def space_between_up():
     turtle.up()
-    turtle.right(180)
-    turtle.forward(60)
+    turtle.right(60)
+    turtle.forward(30)
     turtle.left(90)
-    turtle.forward(50)
+    turtle.forward(70)
     turtle.down()
 
-def space_between_down():
-    turtle.up()
+def L():
+    up()
+
+    turtle.begin_fill()
     turtle.left(120)
-    turtle.forward(50)
+    turtle.forward(20)
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.end_fill()
+
+    turtle.left(60)
+    turtle.forward(40)
     turtle.left(90)
-    turtle.forward(50)
-    turtle.down()
+
+    up()
+
 
 turtle.up()
-turtle.left(180)
+turtle.left(90)
+turtle.forward(100)
+turtle.down()
+turtle.left(90)
 turtle.forward(500)
 turtle.right(180)
-turtle.down()
+#turtle.down()
+
 A()
-space_between_up()
 B()
-space_between_down()
 C()
-space_between_up()
 D()
-space_between_down()
 E()
-space_between_up()
 F()
-space_between_down()
+turtle.forward(500)
+turtle.right(180)
+turtle.forward(600)
+turtle.right(180)
+turtle.forward(100)
 G()
-space_between_up()
 H()
-space_between_down()
+I()
+J()
+K()
+L()
+turtle.up()
+turtle.forward(200)
+turtle.down()
+turtle.left(90)
+turtle.forward(100)
+turtle.right(180)
+turtle.forward(1100)
+turtle.right(180)
+
 
 turtle.done()
