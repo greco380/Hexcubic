@@ -530,10 +530,55 @@ def R():
 
     down()
 
+    turtle.left(60)
+    turtle.up()
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(50)
+    turtle.down()
+
 def S():
     down()
 
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.begin_fill()
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.end_fill()
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.right(30)
+
+    up()
+
+    turtle.left(120)
+    turtle.forward(30)
+    turtle.right(90)
+    turtle.forward(50)
+
+
 def T():
+    down()
+
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.begin_fill()
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.end_fill()
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.right(30)
+
     down()
 
 def U():
@@ -591,10 +636,13 @@ def A_L():
     turtle.forward(1100)
     turtle.right(180)
 
-A_L()
+# A_L()
 O()
 P()
 Q()
 R()
+S()
+T()
+
 
 turtle.done()
