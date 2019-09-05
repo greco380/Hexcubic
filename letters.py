@@ -1,6 +1,6 @@
 import turtle
 
-turtle.speed(0)
+turtle.speed(1)
 
 
 def up():
@@ -418,7 +418,7 @@ def N():
     turtle.up()
     turtle.forward(20)
     turtle.left(90)
-    turtle.forward(60)
+    turtle.forward(50)
     turtle.down()
 
 def O():
@@ -534,7 +534,7 @@ def R():
     turtle.up()
     turtle.forward(10)
     turtle.right(90)
-    turtle.forward(50)
+    turtle.forward(40)
     turtle.down()
 
 def S():
@@ -550,6 +550,7 @@ def S():
     turtle.left(60)
     turtle.forward(20)
     turtle.end_fill()
+
     turtle.left(120)
     turtle.forward(20)
     turtle.right(30)
@@ -581,8 +582,38 @@ def T():
 
     down()
 
+    turtle.left(60)
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(50)
+
 def U():
     down()
+
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.begin_fill()
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.left(120)
+    turtle.forward(20)
+    turtle.left(60)
+    turtle.forward(20)
+    turtle.end_fill()
+
+    turtle.right(180)
+    turtle.forward(20)
+    turtle.right(90)
+    turtle.forward(20)
+    turtle.right(60)
+    turtle.forward(20)
+
+    up()
+
+    turtle.left(60)
+    turtle.forward(10)
+    turtle.right(90)
+    turtle.forward(50)
 
 def V():
     down()
@@ -637,12 +668,15 @@ def A_L():
     turtle.right(180)
 
 # A_L()
-O()
-P()
-Q()
-R()
-S()
-T()
+# M()
+# N()
+# O()
+# P()
+# Q()
+# R()
+# S()
+# T()
+U()
 
 
 turtle.done()

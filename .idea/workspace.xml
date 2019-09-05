@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="321b2591-edbe-4fc8-885a-6e3bb4d6f642" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Hexcubic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Hexcubic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -14,41 +13,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/letters.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="554" column="8" selection-start-line="554" selection-start-column="8" selection-end-line="554" selection-end-column="8" />
-              <folding>
-                <element signature="e#47#566#0" />
-                <element signature="e#584#1059#0" />
-                <element signature="e#1078#1332#0" />
-                <element signature="e#1349#1733#0" />
-                <element signature="e#1748#2133#0" />
-                <element signature="e#2148#2534#0" />
-                <element signature="e#2549#2934#0" />
-                <element signature="e#2949#3375#0" />
-                <element signature="e#3390#3862#0" />
-                <element signature="e#3877#4307#0" />
-                <element signature="e#4322#4750#0" />
-                <element signature="e#4765#5105#0" />
-                <element signature="e#5120#5505#0" />
-                <element signature="e#5520#5900#0" />
-                <element signature="e#5915#6171#0" />
-                <element signature="e#6186#6570#0" />
-                <element signature="e#6585#6951#0" />
-                <element signature="e#6966#7440#0" />
-                <element signature="e#7455#7927#0" />
-                <element signature="e#7942#8460#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -59,13 +23,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/letters.py" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="682" />
     <option name="y" value="23" />
@@ -74,36 +31,17 @@
   </component>
   <component name="ProjectId" id="1QFulgSAYmMOTm818Q0a2q4khLN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Hexcubic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hexcubic" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\greco\PycharmProjects\Hexcubic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,43 +141,13 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="682" y="23" width="758" height="832" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.48743016" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -259,36 +167,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/letters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="554" column="8" selection-start-line="554" selection-start-column="8" selection-end-line="554" selection-end-column="8" />
-          <folding>
-            <element signature="e#47#566#0" />
-            <element signature="e#584#1059#0" />
-            <element signature="e#1078#1332#0" />
-            <element signature="e#1349#1733#0" />
-            <element signature="e#1748#2133#0" />
-            <element signature="e#2148#2534#0" />
-            <element signature="e#2549#2934#0" />
-            <element signature="e#2949#3375#0" />
-            <element signature="e#3390#3862#0" />
-            <element signature="e#3877#4307#0" />
-            <element signature="e#4322#4750#0" />
-            <element signature="e#4765#5105#0" />
-            <element signature="e#5120#5505#0" />
-            <element signature="e#5520#5900#0" />
-            <element signature="e#5915#6171#0" />
-            <element signature="e#6186#6570#0" />
-            <element signature="e#6585#6951#0" />
-            <element signature="e#6966#7440#0" />
-            <element signature="e#7455#7927#0" />
-            <element signature="e#7942#8460#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
